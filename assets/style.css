@@ -54,7 +54,13 @@ body {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 1.5rem;
-    color: #00ff88;
+    background: linear-gradient(90deg, #00ff88, #00ffee, #00a2ff, #b700ff, #ff00c8, #00ff88);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 10s linear infinite;
+    text-shadow: 0 0 20px rgba(0, 255, 136, 0.3)
 }
 
 .hero p {
@@ -159,6 +165,18 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @media (max-width: 768px) {
