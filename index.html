@@ -20,6 +20,23 @@
     </nav>
 
     <main class="landing-page">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="assets/athens.jpg" alt="Athens">
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/rome.jpg" alt="Rome">
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/istanbul.jpg" alt="Istanbul">
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/paris.jpg" alt="Paris">
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/beijing.jpg" alt="Beijing">
+            </div>
+        </div>
         <section class="hero">
             <h1>Top Five Cities that Led the World</h1>
             <p>Explore the fascinating history of five influential cities that shaped human civilization, based on Paul Strathern's "Ten Cities that Led the World."</p>
@@ -36,6 +53,26 @@
             </div>
         </section>
     </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const slides = document.querySelectorAll('.carousel-slide');
+            let currentSlide = 0;
+
+            function showSlide(index) {
+                slides.forEach(slide => slide.classList.remove('active'));
+                slides[index].classList.add('active');
+            }
+
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+            }
+
+            showSlide(0);
+            setInterval(nextSlide, 5000);
+        });
+    </script>
 
     <footer>
         <p>&copy; 2024 Sumaiya Islam. All rights reserved.</p>
