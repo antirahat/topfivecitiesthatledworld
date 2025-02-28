@@ -7,16 +7,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #333333;
 }
 
 .navbar {
-    background-color: #2d2d2d;
+    background-color: #f8f8f8;
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
     z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .navbar ul {
@@ -27,7 +28,7 @@ body {
 }
 
 .navbar a {
-    color: #ffffff;
+    color: #333333;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -67,7 +68,7 @@ body {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
-    color: #cccccc;
+    color: #666666;
 }
 
 .features {
@@ -80,7 +81,7 @@ body {
 }
 
 .feature-box {
-    background-color: #2d2d2d;
+    background-color: #f8f8f8;
     padding: 2rem;
     border-radius: 8px;
     text-align: center;
@@ -108,7 +109,7 @@ body {
 }
 
 .city-content {
-    background-color: #2d2d2d;
+    background-color: #f8f8f8;
     padding: 2rem;
     border-radius: 8px;
     margin-top: 2rem;
@@ -132,14 +133,14 @@ body {
 }
 
 .city-content {
-    background-color: #2d2d2d;
+    background-color: #f8f8f8;
     padding: 2rem;
     border-radius: 8px;
     line-height: 1.8;
 }
 
 .city-content p {
-    color: #cccccc;
+    color: #666666;
     margin-bottom: 1.5rem;
 }
 
@@ -158,8 +159,8 @@ body {
 }
 
 footer {
-    background-color: #2d2d2d;
-    color: #cccccc;
+    background-color: #f8f8f8;
+    color: #666666;
     text-align: center;
     padding: 1rem;
     position: relative;
