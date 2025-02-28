@@ -213,17 +213,71 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
     .navbar ul {
         flex-direction: column;
         align-items: center;
-        gap: 1rem;
+        gap: 0.8rem;
+        padding: 0.5rem 0;
+    }
+
+    .hero {
+        padding: 2rem 1rem;
     }
 
     .hero h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .features {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .feature-box {
+        padding: 1.5rem;
+    }
+
+    .city-page {
+        padding: 1rem;
+    }
+
+    .city-intro {
+        margin-bottom: 2rem;
     }
 
     .city-intro h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        padding: 0 1rem;
+    }
+
+    .city-content {
+        padding: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .city-content p {
+        font-size: 0.95rem;
+    }
+
+    .city-image {
+        margin-bottom: 1rem;
+    }
+
+    .city-image img {
+        height: 250px;
+    }
+
+    .grid-container {
+        padding: 0 1rem;
     }
 }
