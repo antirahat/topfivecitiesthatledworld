@@ -65,7 +65,7 @@ body {
 }
 
 .carousel-slide.active {
-    opacity: 0.4;
+    opacity: 0.35;
 }
 
 .carousel-slide img {
@@ -97,7 +97,7 @@ body {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
-    color: #666666;
+    color: black;
 }
 
 .features {
