@@ -94,8 +94,9 @@ body {
 
 .feature-box h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #00ff88;
+    color: #000000;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .city-page {
@@ -128,8 +129,9 @@ body {
 .city-intro h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    color: #00ff88;
+    color: #000000;
     margin-bottom: 1.5rem;
+    font-weight: bold;
 }
 
 .city-content {
